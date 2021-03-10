@@ -9,7 +9,7 @@ const ContactPageStyles = createGlobalStyle`
         padding: 0 10%;
       }
 
-    h3 {
+    h1 {
       padding-top: 36px;
       margin-bottom: 36px;
       font-size: 2rem;

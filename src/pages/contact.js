@@ -10,14 +10,10 @@ const Contact = () => {
       <Header />
       <ContactGlobalStyles />
       <section className="main__content">
-        <h3>Contact Me</h3>
-
-        <div>
-          <p>Find my work on Github or contact me through LinkedIn</p>
-          <SocialShares />
-        </div>
+        <h1>Contact Me</h1>
 
         <ContactForm />
+        <SocialShares />
       </section>
     </>
   );

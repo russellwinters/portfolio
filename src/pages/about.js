@@ -14,7 +14,7 @@ const About = () => {
       <main className="main__content">
         <img className="background__image" src={BackgroundImage} alt="background__image" />
         <section className="text__block">
-          <h1 className="text__heading">Homepage</h1>
+          <h1 className="text__heading">About Me</h1>
           <p className="inner__text">
             Hello! That page is maintained and developed by Russell Winters. I am a Web Developer based out of
             Vancouver, BC. I grew up on Long Island, New York and went to University at Queen's University in Kingston,
@@ -35,8 +35,8 @@ const About = () => {
             sandbar I grew up on (no hate intended, LI has its redeming qualities) -- and sports, name a sport and I
             probably follow it - except Hockey. This website is NOT a development portfolio (if you really need, you can
             find my resume on the{' '}
-            <Link to="/about" className="text__link">
-              About Me
+            <Link to="/contact" className="text__link">
+              Contact
             </Link>{' '}
             page) - instead it's a personal website. I'm hoping to use it as a space to write more, although writing has
             never been a habit I've been able to form - whether over blog or journaling. We'll see if anything's

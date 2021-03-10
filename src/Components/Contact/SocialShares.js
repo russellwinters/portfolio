@@ -5,6 +5,8 @@ import LinkedIn from '../../Assets/linkedin.png';
 
 const CONTAINER = styled.section`
   width: 100%;
+  display: flex;
+  justify-content: center;
 `;
 
 const IMG = styled.img`
@@ -13,16 +15,25 @@ const IMG = styled.img`
   margin: 8px;
 `;
 
+const TEXT = styled.p`
+  text-align: center;
+  padding: 24px;
+  border-top: 1px solid black;
+`;
+
 const SocialShares = () => {
   return (
-    <CONTAINER>
-      <a href="https://github.com/russellwinters">
-        <IMG src={Github} alt="Github Link" />
-      </a>
-      <a href="https://www.linkedin.com/in/russell-winters/">
-        <IMG src={LinkedIn} alt="LinkedIn Link" />
-      </a>
-    </CONTAINER>
+    <React.Fragment>
+      <TEXT>Or you can find my work on Github and contact me through LinkedIn</TEXT>
+      <CONTAINER>
+        <a href="https://github.com/russellwinters">
+          <IMG src={Github} alt="Github Link" />
+        </a>
+        <a href="https://www.linkedin.com/in/russell-winters/">
+          <IMG src={LinkedIn} alt="LinkedIn Link" />
+        </a>
+      </CONTAINER>
+    </React.Fragment>
   );
 };
 
