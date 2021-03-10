@@ -1,0 +1,48 @@
+body,
+html,
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blog__main {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../Assets/canopy-background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/canopy-background.jpg");
+}
+
+.hide-scrollbar__blog {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.hide-scrollbar__blog::-webkit-scrollbar {
+  background-color: #ecf0d6;
+  border-radius: 10px;
+  width: 20px;
+}
+
+.hide-scrollbar__blog::-webkit-scrollbar-thumb {
+  background-color: #352a2d;
+  border-radius: 10px;
+  border: 5px solid #ecf0d6;
+}
+
+.hide-scrollbar__blog::-webkit-scrollbar-thumb:vertical {
+  height: 20px !important;
+  width: 20px;
+}
+
+.background__image {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  height: 120%;
+  width: auto;
+}
+/*# sourceMappingURL=app.css.map */
