@@ -1,6 +1,5 @@
 import React from 'react';
 import MainTextGlobalStyles from '../Components/About/AboutTextGlobalStyles';
-import ContactGlobalStyles from '../Components/Contact/ContactGlobalStyles';
 import ContactForm from '../Components/Contact/ContactForm';
 import Header from '../Components/Header';
 import SocialShares from '../Components/Contact/SocialShares';

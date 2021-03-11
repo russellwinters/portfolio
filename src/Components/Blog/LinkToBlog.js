@@ -7,27 +7,38 @@ const CARD = styled.section`
   max-width: 650px;
   margin: 24px auto;
   padding: 24px 16px;
-  border: 2px solid #352a2d;
+  border: 4px solid #352a2d;
   border-radius: 8px;
-  box-shadow: 2px 2px 8px 5px #352a2d;
+  background-color: #ecf0d6;
+  box-shadow: 2px 2px 8px 5px #ecf0d6;
 
   &:hover {
-    box-shadow: 5px 5px 20px 10px #352a2d;
+    box-shadow: 5px 5px 20px 10px #ecf0d6;
   }
 `;
 
 const TITLE = styled.h3`
   font-size: 1.5rem;
+  color: #352a2d;
 `;
 
 const METADATA = styled.div`
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 16px 16px 16px 0px;
+  color: #352a2d;
+
+  & a {
+    color: #352a2d;
+    text-decoration: underline;
+    font-weight: 700;
+  }
 `;
 
 const DESCRIPTION = styled.p`
   margin: 16px 0 0 0;
+  color: #352a2d;
 `;
 
 export const LinkToBlog = ({ route, title, date, description }) => {
