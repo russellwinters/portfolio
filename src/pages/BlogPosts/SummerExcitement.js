@@ -1,4 +1,6 @@
 import React from 'react';
+import MainTextGlobalStyles from '../../Components/About/AboutTextGlobalStyles';
+import BackgroundImage from '../../Assets/homepage.jpeg';
 import BackToBlog from '../../Components/Blog/BackToBlog';
 import BlogGlobalStyles from '../../Components/Blog/BlogGlobalStyles';
 import BlogSignOff from '../../Components/Blog/BlogSignOff';
@@ -6,12 +8,16 @@ import BlogSignOff from '../../Components/Blog/BlogSignOff';
 const SummerExcitement = () => {
   return (
     <React.Fragment>
-      <BlogGlobalStyles />
-      <main className="blog__main">
-        <section className="blog__section hide-scrollbar__blog">
+      <MainTextGlobalStyles />
+
+      {/* <BlogGlobalStyles /> */}
+      <main className="main__content">
+        <img className="background__image" src={BackgroundImage} alt="background__image" />
+
+        <section className="text__block hide-scrollbar__blog">
           <BackToBlog />
-          <h2 className="blog__heading">Summer Excitement</h2>
-          <p className="blog__text">
+          <h1 className="text__heading">Summer Excitement</h1>
+          <p className="inner__text">
             It's March 7 as of writing this. That means Vancouver is starting to warm up a bit. It never gets cold cold
             here - the type to freeze your hair and make you thing -5 Celcius is balmy - but it's still nice to see
             March come and bring more daylight. For me the killer of the winter out here isn't the cold, it's the
@@ -21,7 +27,7 @@ const SummerExcitement = () => {
             Patty's can really put a damper (no pun intended) on your day.
           </p>
 
-          <p className="blog__text">
+          <p className="inner__text">
             Buuuuuuuut, since it's March, I get to look ahead and begin plans for the summer. The first thing I do is
             think about last summer, gotta remember what I loved most last time to get some inspiration for this
             summer's plans. I think about camping trips, AirBnbs (as COVID friendly as was possible - sorry nobody's
@@ -29,7 +35,7 @@ const SummerExcitement = () => {
             This is why we plan...
           </p>
 
-          <p className="blog__text">
+          <p className="inner__text">
             First on the plate is a hopeful trip to beautiful Cali. No, not the L.A. or San Fran trip to take in a new
             city, but this one is a trip to Yosemite. I've been before, I forget which year, but it was a family trip -
             one iteration of a Winter's summer trip out West. It was stunning, but we went before I really appreciated
@@ -45,12 +51,12 @@ const SummerExcitement = () => {
             our brightest idea.
           </p>
 
-          <p className="blog__text">
+          <p className="inner__text">
             I hope you get the picture, that should be a sweet hike. If we can get permits and COVID is somewhat
             tolerable by then, you'll find me on Half Dome sometime in late July.
           </p>
 
-          <p className="blog__text">
+          <p className="inner__text">
             I won't go on too long about all the plans for this summer, but another couple I REALLY need to do are the
             Chief and St. Marks. The Chief is one I've never done before, which pains me to say considering it's been on
             my list for two years and would be an easy morning. I'm hoping to do it a few times though, at least once
@@ -64,7 +70,7 @@ const SummerExcitement = () => {
             ~5 hours), but I can do in under 3 - a rewarding hike that can be done after a work day.
           </p>
 
-          <p className="blog__text">
+          <p className="inner__text">
             I guess I mentioned so much more that I did last summer and want to do again. Don't worry, I haven't
             forgotten about that, but I'll leave it for another day. Plans are in the calendar, but we'll get there in
             due time.

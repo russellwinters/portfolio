@@ -42,6 +42,14 @@ const MainTextStyle = createGlobalStyle`
       font-weight: 900;
     }
 
+    a.blog__homeButton {
+      margin-top: 16px;
+      color: #ecf0d6;
+      font-weight: 700;
+      text-decoration: underline; 
+  }
+
+
 `;
 
 const MainTextGlobalStyles = ({ children }) => {
