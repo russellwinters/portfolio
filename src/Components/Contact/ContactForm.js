@@ -64,16 +64,13 @@ const ContactForm = () => {
     <React.Fragment>
       <FORM action="https://formspree.io/f/xdopqeaw" method="POST">
         <INPUT_CONTAINER>
-          <label>Name: </label>
           <INPUT type="text" name="name" placeholder="Name" />
         </INPUT_CONTAINER>
         <INPUT_CONTAINER>
-          <label>Email: </label>
           <INPUT type="email" name="email" placeholder="Email" />
         </INPUT_CONTAINER>
 
         <INPUT_CONTAINER>
-          <label>Message: </label>
           <TEXTAREA name="message" placeholder="Have something to tell me? Write it here..." />
         </INPUT_CONTAINER>
         <BUTTON type="submit">Submit</BUTTON>

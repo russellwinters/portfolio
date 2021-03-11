@@ -22,15 +22,14 @@ a {
 }
 
 .hide-scrollbar__blog::-webkit-scrollbar {
-  background-color: #ecf0d6;
+  background-color: #352a2d;
   border-radius: 10px;
-  width: 20px;
+  width: 10px;
 }
 
 .hide-scrollbar__blog::-webkit-scrollbar-thumb {
-  background-color: #352a2d;
+  background-color: #ecf0d6;
   border-radius: 10px;
-  border: 5px solid #ecf0d6;
 }
 
 .hide-scrollbar__blog::-webkit-scrollbar-thumb:vertical {

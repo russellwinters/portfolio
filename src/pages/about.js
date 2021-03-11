@@ -13,7 +13,7 @@ const About = () => {
       <Header />
       <main className="main__content">
         <img className="background__image" src={BackgroundImage} alt="background__image" />
-        <section className="text__block">
+        <section className="text__block hide-scrollbar__blog">
           <h1 className="text__heading">About Me</h1>
           <p className="inner__text">
             Hello! That page is maintained and developed by Russell Winters. I am a Web Developer based out of

@@ -5,11 +5,14 @@ const MainTextStyle = createGlobalStyle`
 
     section.text__block {
         width: 55vw;
+        height: calc(100vh - 80px);
         padding: 16px 2.5vw;
         margin: 0 auto;
         background-color: #352a2d;
-        opacity: 0.75;
+        opacity: 0.90;
         color: #ecf0d6;
+        overflow-y: scroll;
+        padding-bottom: 36px;
     }
 
     h1.text__heading {
