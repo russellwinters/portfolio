@@ -18,7 +18,7 @@ const IMG = styled.img`
 const TEXT = styled.p`
   text-align: center;
   padding: 24px;
-  border-top: 1px solid black;
+  border-top: 1px solid #ecf0d6;
 `;
 
 const SocialShares = () => {

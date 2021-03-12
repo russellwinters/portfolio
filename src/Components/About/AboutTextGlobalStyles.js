@@ -13,6 +13,7 @@ const MainTextStyle = createGlobalStyle`
         color: #ecf0d6;
         overflow-y: scroll;
         padding-bottom: 36px;
+        border-top: 1px solid #ecf0d6;
     }
 
     h1.text__heading {

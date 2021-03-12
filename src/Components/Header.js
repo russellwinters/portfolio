@@ -12,6 +12,7 @@ const HEADER = styled.header`
   align-items: center;
   padding: 0px 8%;
   height: 80px;
+  opacity: 0.9;
 `;
 
 const LinkSpan = styled.span`
