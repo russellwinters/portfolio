@@ -13,4 +13,11 @@ export const BlogLinks = [
       "It's March, and that means we start planning summer activities. A big motivation to bringmy life to BC was the proximity to the mountains, and I plan to take advantage of that over the summer. We're talking initial plans here...",
     date: 'March 7, 2021',
   },
+  {
+    route: '/blog/newyears-goals',
+    title: 'New Years Goals',
+    description:
+      "Early March reflection on my New Years Resolutions. I'm not usuallly one for resolutions but this year was an exception. Time for a small reflection.",
+    date: 'March 12, 2021',
+  },
 ];
