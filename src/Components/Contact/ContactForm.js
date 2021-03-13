@@ -24,7 +24,8 @@ const INPUT = styled.input`
   border-radius: 4px;
   line-height: 1.75rem;
   font-size: 1.1rem;
-  background-color: #ecf0d6;
+  background-color: rgba(236, 240, 214, 0.2);
+  font-weight: 700;
   color: #352a2d;
 
   &::placeholder {
@@ -40,11 +41,12 @@ const TEXTAREA = styled.textarea`
   line-height: 1.75rem;
   font-size: 1.2rem;
   resize: none;
-  background-color: #ecf0d6;
+  background-color: rgba(236, 240, 214, 0.2);
   color: #352a2d;
 
   &::placeholder {
     color: #352a2d;
+    font-weight: 700;
   }
 `;
 
@@ -54,7 +56,7 @@ const BUTTON = styled.button`
   border-radius: 24px;
   font-size: 1.3rem;
   font-weight: 900;
-  background-color: #ecf0d6;
+  background-color: rgba(236, 240, 214, 0.2);
   color: #352a2d;
   margin-top: 16px;
 `;

@@ -22,19 +22,37 @@ a {
 }
 
 .hide-scrollbar__blog::-webkit-scrollbar {
-  background-color: #352a2d;
+  background-color: #ecf0d6;
   border-radius: 10px;
   width: 10px;
 }
 
 .hide-scrollbar__blog::-webkit-scrollbar-thumb {
-  background-color: #ecf0d6;
+  background-color: #352a2d;
   border-radius: 10px;
 }
 
 .hide-scrollbar__blog::-webkit-scrollbar-thumb:vertical {
   height: 20px !important;
   width: 20px;
+}
+
+.noscroll {
+  overflow-y: hidden;
+  background-color: #352a2d;
+  overflow-x: hidden;
+}
+
+.noscroll::-webkit-scrollbar {
+  background-color: #352a2d;
+}
+
+.noscroll::-webkit-scrollbar-thumb {
+  background-color: #352a2d;
+}
+
+.noscroll::-webkit-scrollbar-thumb:vertical {
+  background-color: #352a2d;
 }
 
 .background__image {

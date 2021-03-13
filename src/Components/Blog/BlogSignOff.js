@@ -5,6 +5,7 @@ const SIGNOFF = styled.div`
   width: 40%;
   margin-left: 55%;
   margin-top: 24px;
+  font-weight: 700;
 `;
 
 const BlogSignOff = ({ timestamp }) => {

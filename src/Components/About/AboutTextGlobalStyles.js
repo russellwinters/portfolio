@@ -8,12 +8,14 @@ const MainTextStyle = createGlobalStyle`
         height: calc(100vh - 80px);
         padding: 16px 2.5vw;
         margin: 0 auto;
-        background-color: #352a2d;
-        opacity: 0.90;
-        color: #ecf0d6;
+        // background-color: #352a2d; //original
+        background-color: rgba(236, 240, 214, 0.2);
+        // opacity: 0.20;
+        // color: #ecf0d6; //original
+        color: #352a2d;
         overflow-y: scroll;
-        padding-bottom: 36px;
-        border-top: 1px solid #ecf0d6;
+        padding-bottom: 112px;
+        // border-top: 1px solid #ecf0d6;
     }
 
     h1.text__heading {
@@ -23,12 +25,15 @@ const MainTextStyle = createGlobalStyle`
       margin-top: 36px;
       margin-bottom: 24px;
       text-decoration: underline;
+      font-weight: 700;
+      
     }
 
     p.inner__text {
         margin-top: 8px;
         text-indent: 2rem;
         font-size: 1.2rem;
+        font-weight: 700;
         line-height: 1.5rem;
     }
 
@@ -38,14 +43,14 @@ const MainTextStyle = createGlobalStyle`
     }
 
     a.text__link {
-      color: #ecf0d6;
+      color: #352a2d;
       text-decoration: underline;
       font-weight: 900;
     }
 
     a.blog__homeButton {
       margin-top: 16px;
-      color: #ecf0d6;
+      color: #352a2d;
       font-weight: 700;
       text-decoration: underline; 
   }

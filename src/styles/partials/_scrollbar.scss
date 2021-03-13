@@ -5,7 +5,8 @@
 }
 
 .hide-scrollbar__blog::-webkit-scrollbar {
-  background-color: $darkest;
+  // background-color: $darkest;
+  background-color: $lightestGreen;
 
   border-radius: 10px;
 
@@ -13,12 +14,29 @@
 }
 
 .hide-scrollbar__blog::-webkit-scrollbar-thumb {
-  background-color: $lightestGreen;
+  // background-color: $lightestGreen;
+  background-color: $darkest;
   border-radius: 10px;
+  // height: 120px;
 }
 
 .hide-scrollbar__blog::-webkit-scrollbar-thumb:vertical {
   height: 20px !important;
-
   width: 20px;
+}
+
+.noscroll {
+  overflow-y: hidden;
+  background-color: $darkest;
+  overflow-x: hidden;
+}
+
+.noscroll::-webkit-scrollbar {
+  background-color: $darkest;
+}
+.noscroll::-webkit-scrollbar-thumb {
+  background-color: $darkest;
+}
+.noscroll::-webkit-scrollbar-thumb:vertical {
+  background-color: $darkest;
 }

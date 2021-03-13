@@ -14,7 +14,7 @@ const Contact = () => {
       <main className="main__content ">
         <img className="background__image" src={BackgroundImage} alt="background__image" />
 
-        <section className="text__block hide-scrollbar__blog">
+        <section className="text__block hide-scrollbar__blog noscroll">
           <h1 className="text__heading">Contact Me</h1>
 
           <ContactForm />

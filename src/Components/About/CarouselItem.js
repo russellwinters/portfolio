@@ -25,8 +25,11 @@ const CarouselItem = ({ src, alt, top, left, bottom, right, description }) => {
     font-size: 1rem;
     line-height: 1.2rem;
     background-color: #2c5061;
+    background-color: rgba(236, 240, 214, 0.6);
+    font-weight: 700;
     // background-color: #352a2d;
     color: #ecf0d6;
+    color: #352a2d;
     z-index: 2;
     padding: 4px 12px;
     width: 100%;
