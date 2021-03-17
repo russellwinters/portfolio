@@ -5,6 +5,7 @@ import FirstPost from './BlogPosts/FirstPost';
 import BlogHome from './BlogPosts/BlogHome';
 import SummerExcitement from './BlogPosts/SummerExcitement';
 import Goals from './BlogPosts/Goals';
+import ImposterSyndrome from './BlogPosts/ImposterSyndrome';
 
 const Blog = () => {
   return (
@@ -16,6 +17,7 @@ const Blog = () => {
           <FirstPost path="/blog/hello-world" />
           <SummerExcitement path="/blog/summer-excitement" />
           <Goals path="/blog/newyears-goals" />
+          <ImposterSyndrome path="/blog/imposter-syndrome" />
         </Router>
       </section>
     </>

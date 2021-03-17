@@ -5,18 +5,14 @@ const MainTextStyle = createGlobalStyle`
 
     section.text__block {
         width: 55vw;
-        height: calc(100vh - 80px);
+        height: calc(100vh - 200px);
         padding: 16px 2.5vw;
         margin: 0 auto;
-        // background-color: #352a2d; //original
         background-color: rgba(236, 240, 214, 0.2);
-        // opacity: 0.20;
-        // color: #ecf0d6; //original
         color: #352a2d;
         overflow-y: scroll;
-        padding-bottom: 112px;
-        // border-top: 1px solid #ecf0d6;
-    }
+        padding-bottom: 24px;
+      }
 
     h1.text__heading {
       width: 100%;
@@ -26,13 +22,12 @@ const MainTextStyle = createGlobalStyle`
       margin-bottom: 24px;
       text-decoration: underline;
       font-weight: 700;
-      
     }
 
     p.inner__text {
         margin-top: 8px;
         text-indent: 2rem;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         font-weight: 700;
         line-height: 1.5rem;
     }

@@ -6,7 +6,8 @@ import BackgroundImage from '../Assets/homepage.jpeg';
 import '../styles/app.css';
 
 const TITLE = styled.h1`
-  font-size: 1.75rem;
+  font-size: 2.3rem;
+  line-height: 2.5rem;
   font-weight: 700;
   color: rgba(53, 42, 45, 1);
   text-align: center;
@@ -14,7 +15,8 @@ const TITLE = styled.h1`
 `;
 
 const TEXT = styled.p`
-  font-size: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
   font-weight: 700;
   color: rgba(53, 42, 45, 1);
   text-align: center;
